@@ -1,21 +1,15 @@
-import logo from './logo.png';
+import React from 'react';
 import './App.css';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+import NavBar from './components/NavBar/NavBar';
 
 function App() {
   return (
+    <Router>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <a
-          className="App-link"
-          href="https://www.cinquewd.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Visit Cinque Web Development
-        </a>
-      </header>
+      <NavBar />
     </div>
+    </Router>
   );
 }
 
