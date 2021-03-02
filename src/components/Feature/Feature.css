@@ -1,0 +1,45 @@
+.feature {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+    width: 100%;
+    font-family: 'Cinzel', serif;
+}
+
+.feature-name {
+    grid-column: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-banner {
+    background-color: white;
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+}
+
+.feature-image {
+    grid-column:2/3;
+}
+
+
+.feat-img {
+    width: 55vw;
+    height: 80vh;
+}
+
+.feature-link {
+    text-decoration: none;
+    color: black;
+}
+
+.feature-link:hover {
+    color: grey;
+    text-decoration: underline;
+    transition: .4s;
+}
