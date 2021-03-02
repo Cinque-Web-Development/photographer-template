@@ -1,0 +1,26 @@
+.footer {
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100px;
+    font-family: 'Cinzel', serif;
+}
+
+.cinque-footer {
+    grid-column: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div > a:hover {
+color: grey;
+}
+
+.social-footer {
+grid-column: 2/3;
+display: flex;
+justify-content: center;
+align-items: center;
+}

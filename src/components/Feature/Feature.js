@@ -1,7 +1,6 @@
 import React from 'react';
 import './Feature.css';
-import FeaturePic from '../../assets/featurepic.jpg';
-import Lander from '../../assets/lander.jpg';
+import Michael from '../../assets/michael.jpg';
 
 
 export default function Feature() {
@@ -10,7 +9,7 @@ export default function Feature() {
         <div className="feature" >
             <div className="feature-name">
                 <div className="feature-banner">
-                    <h2>Logan Weaver</h2><br/>
+                    <h2>Michael Oxendine</h2><br/>
                     <h1>Photography</h1>
                     <br/>
                     <br />
@@ -19,7 +18,7 @@ export default function Feature() {
                 </div>
             </div>
             <div className="feature-image">
-                <img className="feat-img" src={Lander} alt=""></img>
+                <img className="feat-img" src={Michael} alt=""></img>
             </div>
         </div>
     )
