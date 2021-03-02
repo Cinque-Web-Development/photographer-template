@@ -10,7 +10,7 @@ export default function Feature() {
             <div className="feature-name">
                 <div className="feature-banner">
                     <h2>Michael Oxendine</h2><br/>
-                    <h1>Photography</h1>
+                    <h1 className="photography">Photography</h1>
                     <br/>
                     <br />
                     <br />
