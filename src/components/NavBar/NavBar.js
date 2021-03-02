@@ -9,7 +9,16 @@ export default function NavBar() {
                <Link className="link" to="/"><h1>Michael Oxendine</h1></Link>
             </div>
             <div className="nav-links">
-                <Link className="link" to="/portfolio">Portfolio</Link>
+            <div class="dropdown-comp ui compact menu">
+                <div class="dropdown-menu ui simple dropdown item">
+                     Portfolio
+                 <i class="dropdown icon"></i>
+                <div class="menu-list menu">
+                <a className="portfolio-links" href="/portrait">Portrait</a><br />
+                <a className="portfolio-links" href="/landscape">Landscape</a>
+                </div>
+                </div>
+                </div>
                 <Link className="link" to="/services">Services</Link>
                 <Link className="link" to="/about">About</Link>
                 <Link className="link" to="/contact">Contact</Link>

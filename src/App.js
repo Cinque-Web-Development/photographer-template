@@ -15,7 +15,7 @@ function App() {
         <Feature />
       }>
       </Route>
-      <Route exact path="/portfolio" render={() => 
+      <Route exact path="/portrait" render={() => 
         <Portfolio />
       }>
       </Route>
