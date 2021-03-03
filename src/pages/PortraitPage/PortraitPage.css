@@ -1,3 +1,12 @@
 .portrait {
     background-color: black;
 }
+
+.portrait-header {
+    background-color: black;
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 40px;
+}
