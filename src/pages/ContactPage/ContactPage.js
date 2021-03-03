@@ -13,14 +13,34 @@ export default function ContactPage() {
                 <a className="social-links" href="mailto:samueldaletrahan@gmail.com">info@mysite.com</a>
                 <a className="social-links" href="tel:3375554510">337-555-4510</a>
                 <div>
-                <a href="/" className="social-links"><i className="fab fa-facebook"></i></a>
-                <a href="/" className="social-links"><i className="fab fa-instagram"></i></a>
-                <a href="/" className="social-links"><i className="fab fa-twitter"></i></a>
+                <a href="/" className="social-links"><i className="fab fa-facebook fa-2x"></i></a>
+                <a href="/" className="social-links"><i className="fab fa-instagram fa-2x"></i></a>
+                <a href="/" className="social-links"><i className="fab fa-twitter fa-2x"></i></a>
                 </div>
             </div>
-            <div className="contact-form">
-
-            </div>
+              <form className="contact-form">
+                  <div className="contact-first">
+                  <label>First Name</label><br/>
+                      <input className="contact-input"></input>
+                  </div>
+                  <div className="contact-last">
+                  <label>Last Name</label><br/>
+                      <input className="contact-input"></input>
+                  </div>
+                  <div className="contact-email">
+                    <label>Email</label><br/>
+                    <input className="contact-input"></input>
+                  </div>
+                  <div className="contact-subject">
+                    <label>Subject</label><br/>
+                    <input className="contact-input"></input>
+                  </div>
+                    <div className="contact-msg">
+                    <label>Message</label><br/>
+                    <textarea className="msg"></textarea>
+                    </div>
+                    <button className="contact-submit">Submit</button>
+              </form>
            </div>
         </div>
     )
