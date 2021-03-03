@@ -1,7 +1,7 @@
 .contact {
     background-color: black;
     margin: 0;
-    min-height: 76vh;
+    min-height: 79vh;
 }
 
 .contact-head {
@@ -9,7 +9,7 @@
     font-family: 'Cinzel', serif;
     margin: 0;
     font-size: 55px;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 
 .contact-page {
@@ -23,7 +23,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column
+    flex-direction: column;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
 }
 
 .social-links {
@@ -39,6 +41,10 @@
     grid-template-rows: 150px 80px 1fr 1fr;
 }
 
+.label {
+    font-family: 'Cinzel', serif;
+}
+
 .contact-first {
     grid-column: 1/2;
     grid-row: 1/2;
@@ -48,10 +54,6 @@
     flex-direction: column;
 }
 
-.label {
-    display: inline-block;
-    vertical-align: top;
-}
 
 .contact-last {
     grid-column: 2/3;
@@ -69,6 +71,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 10px;
 }
 
 .contact-msg {
@@ -88,6 +91,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 10px;
 }
 
 .contact-input {
@@ -95,10 +99,18 @@
     width: 185px;
 }
 
+.contact-input:hover {
+    background-color: darkgray;
+}
+
 .msg {
     width: 27vw;
     height: 15vh;
     vertical-align: top;
+}
+
+.msg:hover {
+    background-color: darkgray;
 }
 
 .contact-submit {

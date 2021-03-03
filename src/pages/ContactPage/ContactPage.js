@@ -20,23 +20,23 @@ export default function ContactPage() {
             </div>
               <form className="contact-form">
                   <div className="contact-first">
-                  <label>First Name</label><br/>
+                  <label className="label">First Name</label><br/>
                       <input className="contact-input"></input>
                   </div>
                   <div className="contact-last">
-                  <label>Last Name</label><br/>
+                  <label className="label">Last Name</label><br/>
                       <input className="contact-input"></input>
                   </div>
                   <div className="contact-email">
-                    <label>Email</label><br/>
+                    <label className="label">Email</label><br/>
                     <input className="contact-input"></input>
                   </div>
                   <div className="contact-subject">
-                    <label>Subject</label><br/>
+                    <label className="label">Subject</label><br/>
                     <input className="contact-input"></input>
                   </div>
                     <div className="contact-msg">
-                    <label>Message</label><br/>
+                    <label className="label">Message</label><br/>
                     <textarea className="msg"></textarea>
                     </div>
                     <button className="contact-submit">Submit</button>
