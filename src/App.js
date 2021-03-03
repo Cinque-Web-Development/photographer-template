@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import './App.css';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar';
@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer';
 import LandscapePage from './pages/LandscapePage/LandscapePage';
 import PortraitPage from './pages/PortraitPage/PortraitPage';
 import AboutPage from './pages/AboutPage/About';
+import ContactPage from './pages/ContactPage/ContactPage';
 
 
 function App() {
@@ -30,6 +31,10 @@ function App() {
       </Route>
       <Route exact path="/about" render={() =>
       <AboutPage />
+      }>
+      </Route>
+      <Route exact path="/contact" render={() => 
+        <ContactPage />
       }>
       </Route>
       <Footer />
