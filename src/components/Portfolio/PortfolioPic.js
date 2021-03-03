@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './PortfolioPic.css';
 
 export default function PortfolioPic({picture}) {
     return (
@@ -7,8 +8,6 @@ export default function PortfolioPic({picture}) {
            <img className="portfolio-pic" src={picture.picture} alt=""></img> 
         </div>
         :
-        <div>
-            Loading...
-        </div>
+       ""
     )
 }

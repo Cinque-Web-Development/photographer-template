@@ -8,8 +8,6 @@ export default function Landscape({picture}) {
            <img className="portfolio-pic" src={picture.picture} alt=""></img> 
         </div>
         :
-        <div>
-            Loading...
-        </div>
+       ""
     )
 }

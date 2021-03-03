@@ -4,19 +4,12 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar';
 import Feature from './components/Feature/Feature';
 import Footer from './components/Footer/Footer';
-import Portfolio from './components/Portfolio/Portfolio';
-import Landscape from './components/Portfolio/Landscape';
-import {pictureDB} from './picutreDB';
+import LandscapePage from './pages/LandscapePage/LandscapePage';
+import PortraitPage from './pages/PortraitPage/PortraitPage';
+
 
 function App() {
-  const [pics, setPics] = useState()
-
-  useEffect(() => {
-    pictureDB.map(picture => {
-      setPics(picture)
-    })
-
-  }, [])
+  
 
   return (
     <Router>
@@ -27,11 +20,11 @@ function App() {
       }>
       </Route>
       <Route exact path="/portrait" render={() => 
-        <Portfolio />
+        <PortraitPage />
       }>
       </Route>
       <Route exact path="/landscape" render={() => 
-      <Landscape picture={pics}/>
+      <LandscapePage/>
     }>
       </Route>
       <Footer />

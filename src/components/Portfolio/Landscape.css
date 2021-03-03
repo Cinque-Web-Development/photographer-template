@@ -1,0 +1,14 @@
+
+
+.port-pic {
+    margin-bottom: 20px;
+}
+
+.portfolio-pic {
+    width: 500px;
+}
+
+.portfolio-pic:hover {
+    outline-style: auto;
+    opacity: 0.4;
+}
