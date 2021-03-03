@@ -6,6 +6,7 @@ import Feature from './components/Feature/Feature';
 import Footer from './components/Footer/Footer';
 import LandscapePage from './pages/LandscapePage/LandscapePage';
 import PortraitPage from './pages/PortraitPage/PortraitPage';
+import AboutPage from './pages/AboutPage/About';
 
 
 function App() {
@@ -26,6 +27,10 @@ function App() {
       <Route exact path="/landscape" render={() => 
       <LandscapePage/>
     }>
+      </Route>
+      <Route exact path="/about" render={() =>
+      <AboutPage />
+      }>
       </Route>
       <Footer />
     </div>
