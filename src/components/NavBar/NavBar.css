@@ -41,9 +41,15 @@
 
 @media only screen and (max-width: 1095px) {
     .nav-logo {
-        font-size: 20px;
+        font-size: 13px;
     }
     .navbar {
         height: 130px;
+    }
+}
+
+@media only screen and (max-width: 972px) {
+    .nav-logo {
+        font-size: 10px;
     }
 }

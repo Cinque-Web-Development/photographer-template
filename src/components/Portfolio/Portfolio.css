@@ -7,5 +7,10 @@
 }
 
 .portfolio-pic {
-    width: 400px;
+    width: 500px;
+}
+
+.portfolio-pic:hover {
+    outline-style: auto;
+    opacity: 0.4;
 }
