@@ -131,3 +131,66 @@
 .contact-submit:hover {
   background-color: grey;
 }
+
+@media only screen and (max-width: 375px) {
+  .contact-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 450px 975px;
+  }
+
+  .contact-info {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contact-form {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .contact-first {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+
+  .contact-last {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+
+  .contact-email {
+    grid-column: 1/3;
+    grid-row: 3/4;
+  }
+
+  .contact-subject {
+    grid-column: 1/3;
+    grid-row: 4/5;
+  }
+
+  .contact-msg {
+    grid-column: 1/3;
+    grid-row: 5/6;
+  }
+
+  .contact-btn {
+    grid-column: 1/3;
+    grid-row: 6/7
+  }
+
+  .contact-submit {
+    width: 80vw;
+  }
+
+  .msg {
+    width: 80vw;
+  }
+}
