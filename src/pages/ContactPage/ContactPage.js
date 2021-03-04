@@ -39,7 +39,9 @@ export default function ContactPage() {
                     <label className="label">Message</label><br/>
                     <textarea className="msg"></textarea>
                     </div>
+                    <div class  ="contact-btn">
                     <button className="contact-submit">Submit</button>
+                    </div>
               </form>
            </div>
         </div>

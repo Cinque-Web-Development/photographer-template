@@ -112,12 +112,12 @@
   background-color: darkgray;
 }
 
-.contact-submit {
+.contact-btn {
   grid-column: 1/3;
   grid-row: 4/5;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+}
+
+.contact-submit {
   width: 31vw;
   height: 6vh;
   margin-top: 10px;
