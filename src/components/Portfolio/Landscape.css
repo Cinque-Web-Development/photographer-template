@@ -9,3 +9,9 @@
     outline-style: auto;
     opacity: 0.4;
 }
+
+@media only screen and (max-width: 375px) {
+    .portfolio-pic {
+        width: 300px;
+    }
+}
