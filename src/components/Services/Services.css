@@ -37,3 +37,29 @@
 .banner-head {
     font-size: 40px;
 }
+
+@media only screen and (max-width: 375px) {
+    .services-page { 
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 250px 1fr;
+    }
+
+    .service-image {
+        grid-column: 1/3;
+        grid-row: 2/3;
+        width: 100vw;
+        height: 60vh;
+    }
+
+    .service-banner {
+        grid-column: 1/3;
+        grid-row: 1/2;
+        width: 100vw;
+    }
+
+    .banner {
+        width: 100vw;
+        height: 30vh;
+    }
+}

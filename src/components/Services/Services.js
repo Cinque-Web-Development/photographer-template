@@ -15,7 +15,6 @@ export default function Services({picture}) {
                     <br/>
                     <br/>
                     <br/>
-                    <br/>
                     <a className="feature-link" href="/">Book Now</a>
                 </div>
             </div>
