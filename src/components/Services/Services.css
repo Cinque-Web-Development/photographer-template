@@ -1,0 +1,39 @@
+
+
+
+.services-page {
+    display: grid;
+    grid-template-columns: 700px 500px;
+}
+
+.service-image {
+    grid-column: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-img {
+    width: 75%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.service-banner {
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    background-color: white;
+    font-family: 'Cinzel', serif;
+    width: 45vw;
+    height: 40vh;
+    position: absolute;
+}
+
+.banner-head {
+    font-size: 40px;
+}

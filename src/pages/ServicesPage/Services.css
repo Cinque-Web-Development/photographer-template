@@ -1,0 +1,13 @@
+.services {
+    background-color: black;
+    margin:0;
+}
+
+
+.service-heading{
+    color: white;
+    font-family: 'Cinzel', serif;
+    margin: 0;
+    margin-bottom: 50px;
+    font-size: 55px
+}

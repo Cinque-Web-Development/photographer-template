@@ -8,6 +8,7 @@ import LandscapePage from './pages/LandscapePage/LandscapePage';
 import PortraitPage from './pages/PortraitPage/PortraitPage';
 import AboutPage from './pages/AboutPage/About';
 import ContactPage from './pages/ContactPage/ContactPage';
+import ServicesPage from './pages/ServicesPage/Services';
 
 
 function App() {
@@ -35,6 +36,10 @@ function App() {
       </Route>
       <Route exact path="/contact" render={() => 
         <ContactPage />
+      }>
+      </Route>
+      <Route exact path="/services" render={() => 
+      <ServicesPage />
       }>
       </Route>
       <Footer />
