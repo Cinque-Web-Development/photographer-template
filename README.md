@@ -1,9 +1,8 @@
-# Cinque's create-react-app Template
+# Cinque Web Development
 
-### To use our React App template, paste the following command in your terminal:
-```npx create-react-app <your-project-name> --template cra-template-cinque```
+By: [Samuel Trahan](https://www.linkedin.com/in/samueltrahan)
 
-### In addition to the basic create-react-app template, our template comes bootstrapped with the following node modules:
-- axios
-- fontawesome
-- react-router-dom# photographer-template
+
+# Photographer Business Template Site
+
+[![Live Preview](https://img.lekoarts.de/gatsby/preview.svg)](https://photography.cinquewd.com)
